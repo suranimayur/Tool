@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ToolsHub Pro - Free online tools for images, PDFs, videos & more! Compress, convert, edit files instantly. No installation required. 100% secure & private.">
+    <meta name="keywords" content="image tools, PDF tools, video tools, online file converter, free tools, compress PDF, resize image, merge PDF, watermark tool">
+    <meta name="author" content="ToolsHub Pro">
+    <meta property="og:title" content="ToolsHub Pro | Free Online File Conversion Tools">
+    <meta property="og:description" content="100+ free tools for images, PDFs, videos & more. No registration required. Process files directly in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://toolshubpro.com">
+    <meta property="og:image" content="https://toolshubpro.com/images/og-banner.jpg">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://toolshubpro.com">
+    <title>ToolsHub Pro | Free Online File Conversion Toolkit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#7C3AED',
+                        secondary: '#10B981',
+                        dark: '#1F2937',
+                        accent: '#F59E0B',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #7C3AED 0%, #4F46E5 100%);
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .tool-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-icon {
+            background: rgba(124, 58, 237, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="text-xl font-bold text-dark">Tools<span class="text-primary">Hub</span> Pro</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="text-primary font-medium">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-primary transition">Image Tools</a>
+                    <a href="#" class="text-gray-600 hover:text-primary transition">PDF Tools</a>
+                    <a href="#" class="text-gray-600 hover:text-primary transition">Video Tools</a>
+                    <a href="#" class="text-gray-600 hover:text-primary transition">More</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="hidden md:inline-block bg-primary hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">Premium</a>
+                    <button class="md:hidden text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Your Ultimate <span class="text-accent">Online Tools</span> Hub</h1>
+                    <p class="text-xl mb-8 opacity-90">100+ free tools for images, PDFs, videos & more. No registration required. Process files directly in your browser.</p>
+                    <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                        <a href="#image-tools" class="bg-white text-primary hover:bg-gray-100 font-medium px-6 py-3 rounded-lg text-center transition">Explore Tools</a>
+                        <a href="#" class="bg-transparent border-2 border-white hover:bg-white hover:bg-opacity-10 font-medium px-6 py-3 rounded-lg text-center transition">How It Works</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Online Tools Illustration" class="rounded-xl shadow-2xl w-full max-w-md border-4 border-white border-opacity-20">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Ad Banner -->
+    <div class="container mx-auto px-4 py-4">
+        <div class="bg-gray-100 p-3 rounded-lg text-center">
+            <!-- AdSense Ad Unit -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_UNIT_ID_TOP"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-full text-sm font-medium mb-3">WHY CHOOSE US</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Powerful Features For All Your Needs</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Our tools are designed to help you work smarter, not harder. Process files quickly without compromising quality.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <div class="feature-icon w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Lightning Fast</h3>
+                    <p class="text-gray-600">Process files in seconds with our optimized algorithms. No waiting in queues.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <div class="feature-icon w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">100% Secure</h3>
+                    <p class="text-gray-600">Files never leave your browser. We don't store or access your data.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <div class="feature-icon w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Cloud Integrated</h3>
+                    <p class="text-gray-600">Directly import from Google Drive, Dropbox or your device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Tools Section -->
+    <section id="image-tools" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark">Image Tools</h2>
+                    <p class="text-gray-600">Edit, convert and optimize your images in seconds</p>
+                </div>
+                <a href="#" class="hidden md:inline-flex items-center text-primary font-medium">
+                    View all image tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Tool Card 1 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1579547945413-497e1b99dac0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Image Compressor" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Image Compressor</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Reduce image file size without losing quality</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 2 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Image Resizer" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Image Resizer</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Change dimensions of your images precisely</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 3 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Image Converter" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Image Converter</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Convert between JPG, PNG, WEBP, and more</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 4 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Watermark Tool" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Watermark Tool</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Add text or image watermarks to protect your work</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="mt-6 text-center md:hidden">
+                <a href="#" class="inline-flex items-center text-primary font-medium">
+                    View all image tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Middle Ad Banner -->
+    <div class="container mx-auto px-4 py-4">
+        <div class="bg-gray-100 p-3 rounded-lg text-center">
+            <!-- AdSense Ad Unit -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_UNIT_ID_MIDDLE"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <!-- PDF Tools Section -->
+    <section id="pdf-tools" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark">PDF Tools</h2>
+                    <p class="text-gray-600">Edit and manipulate PDF documents with ease</p>
+                </div>
+                <a href="#" class="hidden md:inline-flex items-center text-primary font-medium">
+                    View all PDF tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Tool Card 1 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="PDF Compressor" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">PDF Compressor</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Reduce PDF file size while preserving quality</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 2 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="PDF Merger" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">PDF Merger</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Combine multiple PDFs into a single document</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 3 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1546521343-4eb2c01aa44b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1535&q=80" alt="PDF to Word" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">PDF to Word</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Convert PDF files to editable Word documents</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 4 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="PDF Splitter" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">PDF Splitter</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Extract pages or split PDFs into multiple files</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="mt-6 text-center md:hidden">
+                <a href="#" class="inline-flex items-center text-primary font-medium">
+                    View all PDF tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Tools Section -->
+    <section id="video-tools" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark">Video Tools</h2>
+                    <p class="text-gray-600">Edit and convert video files in your browser</p>
+                </div>
+                <a href="#" class="hidden md:inline-flex items-center text-primary font-medium">
+                    View all video tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Tool Card 1 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1574717024453-3545ed969a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Video Compressor" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Video Compressor</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Reduce video file size without quality loss</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 2 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1459&q=80" alt="Video Converter" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Video Converter</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Convert between MP4, MOV, AVI, and more</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 3 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Video Trimmer" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">Video Trimmer</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Cut and trim videos to desired length</p>
+                    </div>
+                </a>
+                
+                <!-- Tool Card 4 -->
+                <a href="#" class="tool-card bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-40 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541873676-a18131494184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1436&q=80" alt="GIF Maker" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="font-bold text-dark">GIF Maker</h3>
+                        </div>
+                        <p class="text-sm text-gray-600">Create GIFs from videos or image sequences</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="mt-6 text-center md:hidden">
+                <a href="#" class="inline-flex items-center text-primary font-medium">
+                    View all video tools
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Boost Your Productivity?</h2>
+            <p class="text-xl opacity-90 max-w-2xl mx-auto mb-8">Join millions of users who process files faster with ToolsHub Pro. No registration required - start now!</p>
+            <a href="#image-tools" class="inline-block bg-white text-primary hover:bg-gray-100 font-medium px-8 py-3 rounded-lg transition">Get Started for Free</a>
+        </div>
+    </section>
+
+    <!-- Bottom Ad Banner -->
+    <div class="container mx-auto px-4 py-4">
+        <div class="bg-gray-100 p-3 rounded-lg text-center">
+            <!-- AdSense Ad Unit -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                 data-ad-slot="YOUR_AD_UNIT_ID_BOTTOM"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+                        </svg>
+                        <span class="text-xl font-bold">Tools<span class="text-primary">Hub</span> Pro</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">Your all-in-one solution for file conversion and optimization.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Contact</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Premium</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Tools</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Image Tools</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">PDF Tools</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Video Tools</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Audio Tools</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">All Tools</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">DMCA</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 ToolsHub Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle functionality would go here
+        document.addEventListener('DOMContentLoaded', function() {
+            // You would add JavaScript for mobile menu toggle here
+            // And any other interactive elements
+        });
+    </script>
+</body>
+</html>
